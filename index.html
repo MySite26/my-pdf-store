@@ -112,6 +112,28 @@
             font-size: 0.85rem;
             color: #9ca3af;
         }
+        .payment-notice {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    padding: 10px 18px;
+    border-radius: 30px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.88rem;
+    color: #374151;
+    font-weight: 500;
+    margin-top: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+}
+.payment-badge {
+    background-color: #f3f4f6;
+    color: #111827;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
     </style>
 </head>
 <body>
@@ -119,6 +141,10 @@
     <header>
         <h1>Tried & True Digital Guides</h1>
         <p>Instant digital downloads designed to simplify your beauty and wellness routines.</p>
+        <!-- نص توضيح خيارات الدفع -->
+<div class="payment-notice">
+    🔒 Express Checkout with <span class="payment-badge">Apple Pay</span> & <span class="payment-badge">PayPal</span>
+</div>
     </header>
 
     <div class="container">
@@ -153,7 +179,9 @@
     </div>
 
     <footer>
-        <p>100% Secure Checkout • Direct PDF Download After Purchase</p>
+        <footer>
+    <p>100% Secure Checkout • Express Payment via <strong>Apple Pay</strong> & <strong>PayPal</strong> • Direct PDF Download</p>
+</footer>
     </footer>
 
 </body>
